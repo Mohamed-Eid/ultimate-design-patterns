@@ -1,0 +1,23 @@
+{
+    "name": "bluex/ultimate-design-patterns-course",
+    "description": "A practical examples for the ultimate design patterns course",
+    "autoload": {
+        "psr-4": {
+            "Bluex\\UltimateDesignPatternsCourse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohamed-Eid",
+            "email": "medoeid50@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
